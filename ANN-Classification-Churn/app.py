@@ -7,7 +7,7 @@ import pickle
 
 
 # Load the model
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('ANN-Classification-Churn/model.h5')
 
 # load encoders and scaler 
 with open("ANN-Classification-Churn/onehot_encoder_geo.pkl",'rb') as file:
